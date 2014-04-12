@@ -8,11 +8,14 @@ public class FactorialTest {
 
 	@Test
 	public void testFactorial0() {
-		assertEquals(1, Factorial.factorial(0));
+		assertEquals(0, Factorial.factorial(0));
 	}
 
 	@Test
 	public void testFactorial1() {
+		Integer num = new Integer(8);
+		num = null;
+		num.equals(new Integer(9));
 		assertEquals(1, Factorial.factorial(1));
 	}
 
